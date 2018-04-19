@@ -1,10 +1,23 @@
-::-webkit-scrollba {
-  display:none;
+::-webkit-scrollbar {
+	background-color: transparent;
+	width: 12px;
+}
+::-webkit-scrollbar-thumb {
+	background-color: rgba(80,80,80,0.5);
+	border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+	background-color: rgba(20,20,20,0.5);
+}
+@font-face{
+    font-family: 'Calibri';
+    src: url('fonts/Calibri.ttf');
 }
 html,body {
 	-moz-user-select: none; 
 	-khtml-user-select: none; 
 	user-select: none;
+	font-family: 'Calibri';
 } 
 h1, h2, h3{
 	margin: 0;
@@ -14,6 +27,8 @@ p {
 }
 
 html  {
+	min-height: 630px;
+	min-width: 1120px;
 	height: 100%;
 }
 
@@ -96,6 +111,7 @@ body {
 	margin-top: 5%;
 	margin-left: 5%;
 	font-size: 18px;
+	color: white;
 }
 
 .input {
