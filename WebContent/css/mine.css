@@ -200,7 +200,7 @@ body {
 	margin-top: 1%;
 }
 .order_list p {
-	width: 33.3%;
+	width: 25%;
 	height: auto;
 	text-align: center;
 	display: inline-block;
@@ -214,27 +214,13 @@ body {
 
 
 .my_condition {
-	width: 40%;
-	height: 40%;
-	margin: 5% auto;
-	padding-top: 4%;
+	width: 42%;
+	height: 50%;
+	margin: auto;
 	background-color: rgba(255,255,255,0.88);
 	border: 15px solid #C10000;
+	position: relative;
 	text-align: center;
-	font-weight: 900;
-	font-size: 35px;
-}
-.condition_icon {
-	width: 60px;
-	height: 60px;
-	display: inline-block;
-	background-size: 100% 100%;
-	margin: 15% 10% 0 10%;
-	cursor: pointer;
-}
-#re_reserve {
-	background-image: url(../image/pic/wifi-connection.png);
-}
-#cancel {
-	background-image: url(../image/pic/cancel.png);
+	font-weight: bold;
+	font-size: 30px;
 }

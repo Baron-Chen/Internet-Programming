@@ -1,28 +1,18 @@
 $(document).ready(function(){
 	$("#home").on("click", function(){
-		window.location	= 'index.html'
+		window.location	= 'index.jsp'
 	})
 	$("#reservation").on("click", function(){
-		window.location	= 'reservation.html'
+		window.location	= 'reservation.jsp'
 	})
 	$(".reserve").on("click", function(){
-		window.location	= 'reservation.html'
-	})
-	$(".reserve").on("click", function(){
-		window.location	= 'reservation.html'
+		window.location	= 'reservation.jsp'
 	})
 	$("#menu").on("click", function(){
-		window.location	= 'menu.html'
+		window.location	= 'menu.jsp'
 	})
 	$("#mine").on("click", function(){
-		window.location	= 'mine.html'
-	})
-
-	$("#re_reserve").on("click", function(){
-		window.location	= 'menu.html'
-	})
-	$("#cancel").on("click", function(){
-		window.location	= 'index.html'
+		window.location	= 'mine.jsp'
 	})
 
 })
